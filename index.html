@@ -8,25 +8,24 @@
     <title>Amazon Replica</title>
 </head>
 <body>
-    <!-- main box to hold content and use center funtion later to mov all to middle.  
-        Better to apply center funtion to body element instead of also centering footer? --> <!--  --> 
+    <!-- main box to hold content and use center funtion later to mov all to middle. --> 
         <div class="a-section"> <!-- Add border to whole div to match mock up maybe -->
             <form>  <!-- modeled after coding fresh form and added on -->
-                <h3 id="Sign in">Sign In</h3>
+                <h2 id="signin">Sign In</h2>
                 <label>Email (phone or mobile accounts)</label><br>
                 <input type="text" id="emailorphone" placeholder="Enter Email"><br> <!-- ?How to get enter email, enter password, continue to be same length per mockup? -->
-                <label>Password:</label>     <span id="forgotpassword"><a href="#">Forgot Password</a></span><br> <!-- ?How to line up like mock up? -->
-                <input type="text" id="Password" placeholder="Enter Password"><br>
-                <button>Continue</button><br>
-                <h4><a href="#">Need Help?</a></h4>  <!-- ?How to line up like mockup? -->
+                <label id="pw">Password:</label>     <span id="forgotpassword"><a href="#">Forgot Password</a></span><br> <!-- ?How to line up like mock up? -->
+                <input type="text" id="password" placeholder="Enter Password"><br>
+                <button id="continue">Continue</button>
+                <h4><a href="#">&#9656; Need Help?</a></h4>  <!-- ?How to line up like mockup? -->
             </form>
-            <div><h3>------------- New To Amazon? -------------</h3></div> <!-- Used lines istead of unknown Amazon inspect element -->
-            <button>Create Your Amazon Account</button><br> <!-- ?How to get new to Amazon and Create button to be same size like mockup? -->
+            <div><h3>---------------- New To Amazon? ----------------</h3></div> <!-- Used lines istead of unknown Amazon inspect element -->
+            <button id="createyouramazonaccount">Create Your Amazon Account</button><br> <!-- ?How to get new to Amazon and Create button to be same size like mockup? -->
         </div> 
         <br>
         <hr>
-        <footer>  <!-- Center whole footer with CSS? -->
-            <div id="conditionsprivacyhelp">  <!-- ?How to space these evently after centering? -->
+        <footer>  
+            <div id="conditionsprivacyhelp">  
                 <a id="conditions" href="#">Conditions of use</a>
                 <a id="privacy" href="#">Privacy Policy</a>
                 <a id="help" href="#">Help</a>
